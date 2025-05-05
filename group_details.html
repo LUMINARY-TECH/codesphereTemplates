@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+     <link rel="stylesheet" href="/ipadresponsiveness.css">
+    <link rel="stylesheet" href="/responsive.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                    CodeSphere
+                </a>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>
+                        <a>Explore <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Articles</a>
+                                <a href="">Tutorials</a>
+                                <a href="">Trending</a>
+                                <a href="">AI Recs</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Community <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Q&A Forum</a>
+                                <a href="">Live Collab</a>
+                                <a href="/events.html">Events</a>
+                                <a href="">Mentorship</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Groups <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu">
+                            <h1>YOUR GROUPS</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="">
+                                    <img src="/images/java-script.png" alt="">
+                                    JavaScript Developers
+                                </a>
+                                <a href="">
+                                    <img src="/images/python.png" alt="">
+                                    Pythoniasts
+                                </a>
+                                <a href="">
+                                    <img src="/images/artificial-intellegence.png" alt="">
+                                    AI enthusiasts
+                                </a>
+                            </div>
+                            <hr>
+                            <h1>DISCOVER</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="/groups.html">
+                                    <img src="/images/logo.png" alt="">
+                                    Browse All
+                                </a>
+                                <a href="">
+                                    <img src="/images/interface.png" alt="">
+                                    Create New Group
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                    <li><a href="">
+                        <i class="fas fa-bell"></i>
+                        <span></span>
+                    </a></li>
+                    <li>
+                        <a><i class="fas fa-plus"></i></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/newpost.html">New Post</a>
+                                <a href="">Live Session</a>
+                                <a href="">Challenge</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a><img src="/images/user.png" alt=""></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/profilepage.html">Your Profile</a>
+                                <a href="/settings.html">Settings</a>
+                                <a href="">Monetization</a>
+                                <a href="/landingpage.html">Sign Out</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <button class="togglebtn">
+                    <div class="btnsdiv">
+                        <div class="common span1"></div>
+                        <div class="common span2"></div>
+                        <div class="common span3"></div>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="sidebarmain">
+            <div class="searchdiv">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="sidebar-menu">
+                <a href="/">
+                    <span><i class="fas fa-home mr-3"></i> Home</span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-compass mr-3"></i> Explore</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Articles</a>
+                        <a href="">Tutorials</a>
+                        <a href="">Trending</a>
+                        <a href="">AI Recs</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-users"></i> Community</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Q&A Forum</a>
+                        <a href="">Live Collab</a>
+                        <a href="/events.html">Events</a>
+                        <a href="">Mentorship</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span class="groupdiv"><img src="/images/groups.png" alt="">Groups</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <h1>YOUR GROUPS</h1>
+                        <a href="">
+                            <img src="/images/java-script.png" alt="">
+                            Javascript Developers
+                        </a>
+                        <a href="">
+                            <img src="/images/python.png" alt="">
+                            Pythoniasts
+                        </a>
+                        <a href="">
+                            <img src="/images/artificial-intellegence.png" alt="">
+                            AI enthusiasts
+                        </a>
+                        <h1>DISCOVER</h1>
+                        <a href="/groups.html">
+                            <img src="/images/logo.png" alt="">
+                            Browse All
+                        </a>
+                        <a href="">
+                            <img src="/images/interface.png" alt="">
+                            Create New
+                        </a>
+                    </div>
+                </div>
+                <a href="">
+                    <span><i class="fas fa-briefcase"></i>Jobs</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bookmark"></i>Bookmarks</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bell"></i>Notifications</span>
+                    <span class="notifications-span"></span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-plus"></i> Create</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="/newpost.html">New Post</a>
+                        <a href="">Live Session</a>
+                        <a href="">Challenge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar-footer">
+            <div class="sidebar-profile">
+                <div class="prof">
+                    <img src="/images/user.png" alt="">
+                    <div class="profname">
+                        <h2>Sarah Developer</h2>
+                        <p>@sarahDev</p>
+                    </div>
+                </div>
+                    <a href="/profilepage.html">Your Profile</a>
+                    <a href="">Monetization</a>
+                    <a href="/settings.html">Settings</a>
+                    <a href="/landingpage.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body -->
+
+    <main>
+        <section class="groupdetailstop">
+            <div class="groupdetailstop-container">
+                <div class="group-details-top-left">
+                    <div class="group-details-top-left-top">
+                        <div class="group-details-image">
+                            <img src="/images/java.png" alt="">
+                        </div>
+                        <div class="group-name-details">
+                            <h1>Java Developers Squad</h1>
+                            <p>@javadevssquad</p>
+                            <h2>Created November 2024 by <span>Sarah Developer</span></h2>
+                            <p class="about">A community for JavaScript developers to share knowledge, ask questions, <br> and collaborate on projects. All skill levels welcome!</p>
+                        </div>
+                    </div>
+                    <div class="group-details-top-left-stats">
+                        <div class="group-details-stat">
+                            <h2>Posts<span>1.2K</span></h2>
+                        </div>
+                        <div class="group-details-stat">
+                            <h2>Views<span>34kK</span></h2>
+                        </div>
+                        <div class="group-details-stat">
+                            <h2>Upvotes<span>21.4</span></h2>
+                        </div>
+                        <div class="group-details-stat">
+                            <h2>Members<span>235</span></h2>
+                        </div>
+                    </div>
+                    <div class="group-admins">
+                        <div class="adminbox">
+                            <div class="admin-image">
+                                <img src="/images/mary2.jpg" alt="">
+                            </div>
+                            <div class="admin-details-name">
+                                <h2>Sarah Developer</h2>
+                                <p class="groupowner-rank">Group creator</p>
+                            </div>
+                            <div class="admin-details-container">
+                                <div class="admin-profile-image">
+                                    <div class="admin-profle-pic">
+                                        <img src="/images/mary2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="group-admin-details">
+                                    <h2>Sarah Developer</h2>
+                                    <p>Software Developer | Backend developer | AI enthusiast | Open source contributor</p>
+                                </div>
+                                <div class="group-admin-details-stats">
+                                    <div class="group-admin-stats">
+                                        <span>123</span>
+                                        <p>posts</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>1.7k</span>
+                                        <p>followers</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>1.29K</span>
+                                        <p>Upvotes</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>134</span>
+                                        <p>Following</p>
+                                    </div>
+                                </div>
+                                <div class="followup">
+                                    <button>Message</button>
+                                    <button>Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adminbox">
+                            <div class="admin-image">
+                                <img src="/images/mary3.jpg" alt="">
+                            </div>
+                            <div class="admin-details-name">
+                                <h2>Mary Ngira</h2>
+                                <p class="groupadmin-rank">Admin</p>
+                            </div>
+                            <div class="admin-details-container">
+                                <div class="admin-profile-image">
+                                    <div class="admin-profle-pic">
+                                        <img src="/images/mary3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="group-admin-details">
+                                    <h2>Mary Ngira</h2>
+                                    <p>Full-stack developer | AI enthusiast | Open source contributor</p>
+                                </div>
+                                <div class="group-admin-details-stats">
+                                    <div class="group-admin-stats">
+                                        <span>245</span>
+                                        <p>posts</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>2.56k</span>
+                                        <p>followers</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>3.7K</span>
+                                        <p>Upvotes</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>126</span>
+                                        <p>Following</p>
+                                    </div>
+                                </div>
+                                <div class="followup">
+                                    <button>Message</button>
+                                    <button>Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adminbox">
+                            <div class="admin-image">
+                                <img src="/images/dev1.jpg" alt="">
+                            </div>
+                            <div class="admin-details-name">
+                                <h2>Elisha Kwena</h2>
+                                <p class="groupadmin-rank">Admin</p>
+                            </div>
+                            <div class="admin-details-container">
+                                <div class="admin-profile-image">
+                                    <div class="admin-profle-pic">
+                                        <img src="/images/dev1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="group-admin-details">
+                                    <h2>Elisha Kwena</h2>
+                                    <p>Mobile App Developer | Full-stack Developer | Block Chain Developer</p>
+                                </div>
+                                <div class="group-admin-details-stats">
+                                    <div class="group-admin-stats">
+                                        <span>432</span>
+                                        <p>posts</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>3.7k</span>
+                                        <p>followers</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>23.9K</span>
+                                        <p>Upvotes</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>87</span>
+                                        <p>Following</p>
+                                    </div>
+                                </div>
+                                <div class="followup">
+                                    <button>Message</button>
+                                    <button>Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="adminbox">
+                            <div class="admin-image">
+                                <img src="/images/dev2.jpg" alt="">
+                            </div>
+                            <div class="admin-details-name">
+                                <h2>Alex Coder</h2>
+                                <p class="groupadmin-rank">Admin</p>
+                            </div>
+                            <div class="admin-details-container">
+                                <div class="admin-profile-image">
+                                    <div class="admin-profle-pic">
+                                        <img src="/images/dev2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="group-admin-details">
+                                    <h2>Alex Coder</h2>
+                                    <p>Frontend Developer | AI enthusiast | Open source contributor</p>
+                                </div>
+                                <div class="group-admin-details-stats">
+                                    <div class="group-admin-stats">
+                                        <span>123</span>
+                                        <p>posts</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>1.7k</span>
+                                        <p>followers</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>1.29K</span>
+                                        <p>Upvotes</p>
+                                    </div>
+                                    <div class="group-admin-stats">
+                                        <span>134</span>
+                                        <p>Following</p>
+                                    </div>
+                                </div>
+                                <div class="followup">
+                                    <button>Message</button>
+                                    <button>Follow</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="group-details-top-left-about">
+    
+                        <p>A community for Java developers to share knowledge, ask questions, and collaborate on projects. All skill levels welcome!</p>
+                        <div class="grouprules">
+                            <h2>Rules</h2>
+                            <ul>
+                                <li>Be respectful to all members</li>
+                                <li>No spam or self-promotion</li>
+                                <li>Kepp discussions Java related</li>
+                                <li>Use code blocks for code snippets</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="group-details-top-right">
+                    <div class="group-details-top-right-any">
+                        <div class="group-details-top-right-top">
+                            <h2>Related Groups</h2>
+                            <div class="related-group-box">
+                                <div class="related">
+                                    <img src="/images/java2.png" alt="">
+                                    <div class="related-details">
+                                        <h2>Java Juggernuts</h2>
+                                        <p>3.5k Members</p>
+                                    </div>
+                                    <a href="">View</a>
+                                </div>
+                                <div class="related">
+                                    <img src="/images/c-sharp.png" alt="">
+                                    <div class="related-details">
+                                        <h2>C# Developers</h2>
+                                        <p>1.27k Members</p>
+                                    </div>
+                                    <a href="">View</a>
+                                </div>
+                                <div class="related">
+                                    <img src="/images/kotlin.jpeg" alt="">
+                                    <div class="related-details">
+                                        <h2>Kotlin Community</h2>
+                                        <p>10k Members</p>
+                                    </div>
+                                    <a href="">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-details-top-right-bottom">
+                            <a href="" class="group-post">
+                                <i class="fas fa-plus"></i> Create Post
+                            </a>
+                            <div class="group-settings">
+                                <a href="">
+                                    <i class="fas fa-bell"></i> Notifications
+                                </a>
+                                <a href=""><i class="fas fa-share-alt"></i> Share</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group-details-nav-links">
+                <div class="group-details-nav-links-top">
+                    <div class="group-details-nav-links-indicator" id="menu-indication"></div>
+                    <a href="#" id="menu1" class="menu_btns active">Posts</a>
+                    <a href="#" id="menu2" class="menu_btns">Members</a>
+                    <a href="#" id="menu3" class="menu_btns">Resources</a>
+                    <a href="#" id="menu4" class="menu_btns">About</a>
+                </div>
+                <hr>
+                <div class="group-details-nav-links-bottom">
+                    <div class="group-details-nav-links-bottom-left">
+                        <img src="/images/mary2.jpg" alt="">
+                    </div>
+                    <div class="group-details-nav-links-bottom-right">
+                        <input type="text" placeholder="Create Post...">
+                        <div class="group-details-nav-links-bottom-type">
+                            <button class="">
+                                <i class="fas fa-file-alt"></i> Article
+                            </button>
+                            <button class="">
+                                <i class="fas fa-code"></i> Code
+                            </button>
+                            <button class="">
+                                <i class="fas fa-question"></i> Question
+                            </button>
+                            <button class="">
+                                <i class="fas fa-link"></i> Link
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="group-details-posts">
+            <div class="group-details-posts-top">
+                <div class="group-details-posts-sort">
+                    <button class="sortbtns active">Newest</button>
+                    <button class="sortbtns">Top</button>
+                    <button class="sortbtns">Hot</button>
+                </div>
+                <div class="group-details-posts-filter">
+                    <button class="">
+                        <i class="fas fa-sliders-h "></i> Filters
+                    </button>
+                </div>
+            </div>
+            <div class="posts-section-container">
+                <div class="posts-container" onclick="openPostModal()">
+                    <div class="posts-container-top">
+                        <a href="/profilepage.html">
+                            <img src="/images/user.png" alt="">
+                            <div class="post-owner">
+                                <h2>Sarah Developer</h2>
+                                <p>3 days ago</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="postscontent">
+                        <h2>Building a Real-time Collab Editor</h2>
+                        <img src="/images/banner1.jpg" alt="">
+                        <p>How we built a VS Code-like collaborative editor with conflict resolution algorithms...</p>
+                    </div>
+                    <div class="posts-actions">
+                        <div class="actionsleft">
+                            <img src="/images/java.png" alt="">
+                            <span>Java developers Squad</span>
+                        </div>
+                        <div class="actionsright">
+                            <span>
+                                <i class="far fa-comment"></i> 18
+                            </span>
+                            <span>
+                                <i class="fas fa-heart"></i> 89
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts-container" onclick="openPostModal()">
+                    <div class="posts-container-top">
+                        <a href="">
+                            <img src="/images/mary.jpg" alt="">
+                            <div class="post-owner">
+                                <h2>Mary Ngira</h2>
+                                <p>2 days ago</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="postscontent">
+                        <h2>Programmers collaboration in Daily DEV</h2>
+                        <img src="/images/banner6.PNG" alt="">
+                        <p>Programmers platform where all programmers suffer together</p>
+                    </div>
+                    <div class="posts-actions">
+                        <div class="actionsleft">
+                            <img src="/images/python.png" alt="">
+                            <span>Pythoniasts</span>
+                        </div>
+                        <div class="actionsright">
+                            <span>
+                                <i class="far fa-comment"></i> 34
+                            </span>
+                            <span>
+                                <i class="fas fa-heart"></i> 124
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="/app.js"></script>
+    <script src="./groups.js"></script>
+</body>
+</html>

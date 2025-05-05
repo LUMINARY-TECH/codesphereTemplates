@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+     <link rel="stylesheet" href="/ipadresponsiveness.css">
+    <link rel="stylesheet" href="/responsive.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                    CodeSphere
+                </a>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>
+                        <a>Explore <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Articles</a>
+                                <a href="">Tutorials</a>
+                                <a href="">Trending</a>
+                                <a href="">AI Recs</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Community <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Q&A Forum</a>
+                                <a href="">Live Collab</a>
+                                <a href="/events.html">Events</a>
+                                <a href="">Mentorship</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Groups <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu">
+                            <h1>YOUR GROUPS</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="">
+                                    <img src="/images/java-script.png" alt="">
+                                    JavaScript Developers
+                                </a>
+                                <a href="">
+                                    <img src="/images/python.png" alt="">
+                                    Pythoniasts
+                                </a>
+                                <a href="">
+                                    <img src="/images/artificial-intellegence.png" alt="">
+                                    AI enthusiasts
+                                </a>
+                            </div>
+                            <hr>
+                            <h1>DISCOVER</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="/groups.html">
+                                    <img src="/images/logo.png" alt="">
+                                    Browse All
+                                </a>
+                                <a href="">
+                                    <img src="/images/interface.png" alt="">
+                                    Create New Group
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                    <li><a href="">
+                        <i class="fas fa-bell"></i>
+                        <span></span>
+                    </a></li>
+                    <li>
+                        <a><i class="fas fa-plus"></i></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/newpost.html">New Post</a>
+                                <a href="">Live Session</a>
+                                <a href="">Challenge</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a><img src="/images/user.png" alt=""></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/profilepage.html">Your Profile</a>
+                                <a href="/settings.html">Settings</a>
+                                <a href="">Monetization</a>
+                                <a href="/landingpage.html">Sign Out</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <button class="togglebtn">
+                    <div class="btnsdiv">
+                        <div class="common span1"></div>
+                        <div class="common span2"></div>
+                        <div class="common span3"></div>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="sidebarmain">
+            <div class="searchdiv">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="sidebar-menu">
+                <a href="/">
+                    <span><i class="fas fa-home mr-3"></i> Home</span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-compass mr-3"></i> Explore</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Articles</a>
+                        <a href="">Tutorials</a>
+                        <a href="">Trending</a>
+                        <a href="">AI Recs</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-users"></i> Community</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Q&A Forum</a>
+                        <a href="">Live Collab</a>
+                        <a href="/events.html">Events</a>
+                        <a href="">Mentorship</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span class="groupdiv"><img src="/images/groups.png" alt="">Groups</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <h1>YOUR GROUPS</h1>
+                        <a href="">
+                            <img src="/images/java-script.png" alt="">
+                            Javascript Developers
+                        </a>
+                        <a href="">
+                            <img src="/images/python.png" alt="">
+                            Pythoniasts
+                        </a>
+                        <a href="">
+                            <img src="/images/artificial-intellegence.png" alt="">
+                            AI enthusiasts
+                        </a>
+                        <h1>DISCOVER</h1>
+                        <a href="/groups.html">
+                            <img src="/images/logo.png" alt="">
+                            Browse All
+                        </a>
+                        <a href="">
+                            <img src="/images/interface.png" alt="">
+                            Create New
+                        </a>
+                    </div>
+                </div>
+                <a href="">
+                    <span><i class="fas fa-briefcase"></i>Jobs</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bookmark"></i>Bookmarks</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bell"></i>Notifications</span>
+                    <span class="notifications-span"></span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-plus"></i> Create</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="/newpost.html">New Post</a>
+                        <a href="">Live Session</a>
+                        <a href="">Challenge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar-footer">
+            <div class="sidebar-profile">
+                <div class="prof">
+                    <img src="/images/user.png" alt="">
+                    <div class="profname">
+                        <h2>Sarah Developer</h2>
+                        <p>@sarahDev</p>
+                    </div>
+                </div>
+                    <a href="/profilepage.html">Your Profile</a>
+                    <a href="">Monetization</a>
+                    <a href="/settings.html">Settings</a>
+                    <a href="/landingpage.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body -->
+
+    <main>
+        <section class="groupsboxsection">
+            <div class="groupsbox-top">
+                <div class="groupsbox-top-left">
+                    <h1>Explore Groups</h1>
+                    <p>Connect with communities in your tech stack</p>
+                </div>
+                <a href="">
+                    <i class="fas fa-plus"></i>Create Group
+                </a>
+            </div>
+            <div class="groupsbox-middle">
+                <div class="groupsbox-middle-top">
+                    <form action="">
+                        <span><i class="fas fa-search"></i></span>
+                        <input type="text" placeholder="Search Groups...">
+                    </form>
+                    <select name="" id="">
+                        <option value="">All Categories</option>
+                        <option value="">Programming Languages</option>
+                        <option value="">Frameworks</option>
+                        <option value="">DevOps</option>
+                        <option value="">AI/ML</option>
+                        <option value="">Security</option>
+                        <option value="">Career</option>
+                    </select>
+                </div>
+                <div class="groupsbox-middle-bottom">
+                    <button>
+                        All Groups
+                    </button>
+                    <button class="react">
+                        <i class="fab fa-react"></i> React
+                    </button>
+                    <button class="python">
+                        <i class="fab fa-python"></i> Python
+                    </button>
+                    <button class="artificial">
+                        <i class="fas fa-robot"></i> AI
+                    </button>
+                    <button class="devops">
+                        <i class="fas fa-server"></i> DevOps
+                    </button>
+                    <button class="security">
+                        <i class="fas fa-lock "></i> Security
+                    </button>
+                </div>
+            </div>
+            <div class="groupsbox-container">
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/react.png" alt="">
+                            <h2>React Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for React developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="/group_details.html">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/php.png" alt="">
+                            <h2>Php Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for Php developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="/group_details.html">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/Go-Logo_Blue.png" alt="">
+                            <h2>GO-Lang Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for Go lang developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="/group_details.html">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/node.png" alt="">
+                            <h2>Node.js Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for Node.js developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/java.png" alt="">
+                            <h2>Java Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for Java developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+                <div class="groupsbox-div">
+                    <div class="groupsbox-div-top">
+                        <div class="groupsbox-div-top-left">
+                            <img src="/images/tailwind.jpeg" alt="">
+                            <h2>Tailwind Developers</h2>
+                        </div>
+                        <div class="groupsbox-div-top-right">
+                            <div>24k members</div>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-contents">
+                        <p>Discussion and collaboration for Tailwind developers of all levels.</p>
+                        <div class="groupsbox-div-members">
+                            <div class="groupsbox-div-members-left">
+                                <div class="common-div common-mem1">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem2">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem3">
+                                    <img src="/images/user2.png" alt="">
+                                </div>
+                                <div class="common-div common-mem4">+221</div>
+                            </div>
+                            <a href="">View</a>
+                        </div>
+                    </div>
+                    <div class="groupsbox-div-actions">
+                        <span >
+                            <i class="far fa-file-alt "></i> 142 posts/week
+                        </span>
+                        <span>
+                            Public Group
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="paginators">
+                <div class="paginators-div">
+                    <button><i class="fas fa-chevron-left"></i></button>
+                    <button class="activepage">1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <span>...</span>
+                    <button>8</button>
+                    <button><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>

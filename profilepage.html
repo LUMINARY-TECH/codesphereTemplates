@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+     <link rel="stylesheet" href="/ipadresponsiveness.css">
+    <link rel="stylesheet" href="/responsive.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                    CodeSphere
+                </a>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>
+                        <a>Explore <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Articles</a>
+                                <a href="">Tutorials</a>
+                                <a href="">Trending</a>
+                                <a href="">AI Recs</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Community <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Q&A Forum</a>
+                                <a href="">Live Collab</a>
+                                <a href="/events.html">Events</a>
+                                <a href="">Mentorship</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Groups <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu">
+                            <h1>YOUR GROUPS</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="">
+                                    <img src="/images/java-script.png" alt="">
+                                    JavaScript Developers
+                                </a>
+                                <a href="">
+                                    <img src="/images/python.png" alt="">
+                                    Pythoniasts
+                                </a>
+                                <a href="">
+                                    <img src="/images/artificial-intellegence.png" alt="">
+                                    AI enthusiasts
+                                </a>
+                            </div>
+                            <hr>
+                            <h1>DISCOVER</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="/groups.html">
+                                    <img src="/images/logo.png" alt="">
+                                    Browse All
+                                </a>
+                                <a href="">
+                                    <img src="/images/interface.png" alt="">
+                                    Create New Group
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                    <li><a href="">
+                        <i class="fas fa-bell"></i>
+                        <span></span>
+                    </a></li>
+                    <li>
+                        <a><i class="fas fa-plus"></i></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/newpost.html">New Post</a>
+                                <a href="">Live Session</a>
+                                <a href="">Challenge</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a><img src="/images/user.png" alt=""></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/profilepage.html">Your Profile</a>
+                                <a href="/settings.html">Settings</a>
+                                <a href="">Monetization</a>
+                                <a href="/landingpage.html">Sign Out</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <button class="togglebtn">
+                    <div class="btnsdiv">
+                        <div class="common span1"></div>
+                        <div class="common span2"></div>
+                        <div class="common span3"></div>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="sidebarmain">
+            <div class="searchdiv">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="sidebar-menu">
+                <a href="/">
+                    <span><i class="fas fa-home mr-3"></i> Home</span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-compass mr-3"></i> Explore</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Articles</a>
+                        <a href="">Tutorials</a>
+                        <a href="">Trending</a>
+                        <a href="">AI Recs</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-users"></i> Community</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Q&A Forum</a>
+                        <a href="">Live Collab</a>
+                        <a href="/events.html">Events</a>
+                        <a href="">Mentorship</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span class="groupdiv"><img src="/images/groups.png" alt="">Groups</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <h1>YOUR GROUPS</h1>
+                        <a href="">
+                            <img src="/images/java-script.png" alt="">
+                            Javascript Developers
+                        </a>
+                        <a href="">
+                            <img src="/images/python.png" alt="">
+                            Pythoniasts
+                        </a>
+                        <a href="">
+                            <img src="/images/artificial-intellegence.png" alt="">
+                            AI enthusiasts
+                        </a>
+                        <h1>DISCOVER</h1>
+                        <a href="/groups.html">
+                            <img src="/images/logo.png" alt="">
+                            Browse All
+                        </a>
+                        <a href="">
+                            <img src="/images/interface.png" alt="">
+                            Create New
+                        </a>
+                    </div>
+                </div>
+                <a href="">
+                    <span><i class="fas fa-briefcase"></i>Jobs</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bookmark"></i>Bookmarks</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bell"></i>Notifications</span>
+                    <span class="notifications-span"></span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-plus"></i> Create</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="/newpost.html">New Post</a>
+                        <a href="">Live Session</a>
+                        <a href="">Challenge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar-footer">
+            <div class="sidebar-profile">
+                <div class="prof">
+                    <img src="/images/user.png" alt="">
+                    <div class="profname">
+                        <h2>Sarah Developer</h2>
+                        <p>@sarahDev</p>
+                    </div>
+                </div>
+                    <a href="/profilepage.html">Your Profile</a>
+                    <a href="">Monetization</a>
+                    <a href="/settings.html">Settings</a>
+                    <a href="/landingpage.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body -->
+
+    <main>
+        <section class="userprofile-container">
+            <div class="userprofile-top">
+                <div class="user-top">
+                    <div class="user-top-left">
+                        <div class="user-profile-image">
+                            <img src="/images/user.png" alt="">
+                            <span></span>
+                        </div>
+                        <div class="user-profile-details">
+                            <h1>Sarah Developer</h1>
+                            <h4>@sarahcodes</h4>
+                            <p>Full-stack developer | AI enthusiast | Open source contributor | Building the future one commit at a time</p>
+                            <div class="user-data">
+                                <div class="data-user">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>San Francisco, CA</span>
+                                </div>
+                                <div class="data-user">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Senior Developer @TechCorp</span>
+                                </div>
+                                <div class="data-user">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Joined June 2018</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-top-right">
+                        <div class="user-count">
+                            <h2>1.2K</h2>
+                            <p>FOLLOWERS</p>
+                        </div>
+                        <div class="user-count">
+                            <h2>348</h2>
+                            <p>FOLLOWING</p>
+                        </div>
+                        <div class="user-count">
+                            <h2>87</h2>
+                            <p>POSTS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-bottom">
+                    <div class="user-badges">
+                        <span class="blue-stat">
+                            <i class="fas fa-medal"></i> Top Contributor
+                        </span>
+                        <span class="yellow-stat">
+                            <i class="fas fa-star"></i> Mentor
+                        </span>
+                        <span class="purple-stat">
+                            <i class="fas fa-bolt"></i> Fast Responder
+                        </span>
+                    </div>
+                    <div class="edit-user">
+                        <a href="/usergroups.html">
+                            <img src="/images/mygroups.png" alt="">
+                            My Groups
+                        </a>
+                        <a href="">
+                            <img src="/images/edit.png" alt="">Edit you Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="userprofile-box">
+                <div class="userprofile-box-left">
+                    <div class="user-profile-about">
+                        <h1>About</h1>
+                        <p>JavaScript/TypeScript expert with 7+ years experience building scalable web applications. Passionate about React, Node.js, and machine learning.</p>
+                        <div class="user-skills">
+                            <h2>Skills</h2>
+                            <div class="skills-box">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>GraphQL</span>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                        <div class="user-skills">
+                            <h2>Links</h2>
+                            <div class="user-socials">
+                                <a href="#">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-profile-mentorship">
+                        <h1>Mentorship</h1>
+                        <p>Available for mentorship on React, Node.js, and career growth in tech.</p>
+                        <a href="">Request Mentorship</a>
+                    </div>
+                    <div class="achievements">
+                        <h1>Recent Achievements</h1>
+                        <div class="achievement-box">
+                            <div class="achievement">
+                                <div class="achievement-left">
+                                    <i class="fas fa-trophy trophy"></i>
+                                </div>
+                                <div class="achievement-right">
+                                    <p>Won August Coding Challenge</p>
+                                    <h4>3 days ago</h4>
+                                </div>
+                            </div>
+                            <div class="achievement">
+                                <div class="achievement-left">
+                                    <i class="fas fa-certificate certificate"></i>
+                                </div>
+                                <div class="achievement-right">
+                                    <p>Earned Senior Developer badge</p>
+                                    <h4>2 weeks ago</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="">View All Achievements</a>
+                    </div>
+                </div>
+                <div class="userprofile-box-middle">
+                    <div class="user-profile-contents-container">
+                        <div class="user-profile-contents-container-top" >
+                            <div class="user-menu-links">
+                                <div class="user-menu-links-indicator" id="menu-indicator"></div>
+                                <a href="#" id="link1">Posts</a>
+                                <a href="#" id="link2">Tutorials</a>
+                                <a href="#" id="link3">Saved</a>
+                                <a href="#" id="link4">Upvoted</a>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="user-posts-container">
+                            <div class="user-post-box">
+                                <div class="user-post-box-contents">
+                                    <div class="user-post-box-left">
+                                        <img src="/images/user.png" alt="">
+                                    </div>
+                                    <div class="user-post-box-right">
+                                        <div class="user-post-box-right-top">
+                                            <h1>Sarah Developer</h1>
+                                            <p>2 days ago . 8 min read</p>
+                                        </div>
+                                        <div class="user-post-box-right-content">
+                                            <h1>Building a Real-time Collab Editor with React and Websockets</h1>
+                                            <p>A deep dive into building a VS Code-like collaborative editor with conflict resolution algorithms...</p>
+                                            <img src="/images/banner1.jpg" alt="">
+                                            <div class="user-post-actions">
+                                                <div class="user-post-actions-left">
+                                                    <span class="coment">
+                                                        <i class="far fa-comment"></i> 24
+                                                    </span>
+                                                    <span class="like">
+                                                        <i class="fas fa-heart"></i> 120
+                                                    </span>
+                                                </div>
+                                                <div class="user-post-actions-right">
+                                                    <span>React</span>
+                                                    <span>WebSockets</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="user-post-box">
+                                <div class="user-post-box-contents">
+                                    <div class="user-post-box-left">
+                                        <img src="/images/user.png" alt="">
+                                    </div>
+                                    <div class="user-post-box-right">
+                                        <div class="user-post-box-right-top">
+                                            <h1>Sarah Developer</h1>
+                                            <p>1 week ago . 8 min read</p>
+                                        </div>
+                                        <div class="user-post-box-right-content">
+                                            <h1>AI-Powered Code Reviews:Our Implementation Journey</h1>
+                                            <p>How we integrated GPT-4 into our code review workflow to catch bugs before they reach production...</p>
+                                            <!-- <img src="/images/banner1.jpg" alt=""> -->
+                                            <div class="user-post-actions">
+                                                <div class="user-post-actions-left">
+                                                    <span class="coment">
+                                                        <i class="far fa-comment"></i> 18
+                                                    </span>
+                                                    <span class="like">
+                                                        <i class="fas fa-heart"></i> 89
+                                                    </span>
+                                                </div>
+                                                <div class="user-post-actions-right">
+                                                    <span>AI</span>
+                                                    <span>GitHub</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="paginators">
+                            <div class="paginators-div">
+                                <button><i class="fas fa-chevron-left"></i></button>
+                                <button class="activepage">1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <span>...</span>
+                                <button>8</button>
+                                <button><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="userprofile-box-right">
+                    <div class="recent-activity">
+                        <h1>Recent Activity</h1>
+                        <div class="activity-box">
+                            <div class="activity-container">
+                                <div class="activity-left">
+                                    <img src="/images/boy.png" alt="">
+                                </div>
+                                <div class="activity-right">
+                                    <p><span>Alex Coder</span>Commented on your post <strong>"Building a Real-time Collab Editor"</strong></p>
+                                    <h4>1 hour ago</h4>
+                                    <div class="activity-comment">
+                                        <p>"This is exactly what our team needed! Have you considered open-sourcing the conflict resolution module?"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activity-container">
+                                <div class="activity-left">
+                                    <img src="/images/bussiness-man.png" alt="">
+                                </div>
+                                <div class="activity-right">
+                                    <p><span>You</span>upvoted <strong>"Next.js 13 Performance Deep Dive</strong> by<span>Jamie Dev</span></p>
+                                    <h4>3 hours ago</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>

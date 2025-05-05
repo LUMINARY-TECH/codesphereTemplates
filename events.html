@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+     <link rel="stylesheet" href="/ipadresponsiveness.css">
+    <link rel="stylesheet" href="/responsive.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="">
+                    CodeSphere
+                </a>
+            </div>
+            <div class="middle">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li>
+                        <a>Explore <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Articles</a>
+                                <a href="">Tutorials</a>
+                                <a href="">Trending</a>
+                                <a href="">AI Recs</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Community <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu menu1">
+                            <div class="links">
+                                <a href="">Q&A Forum</a>
+                                <a href="">Live Collab</a>
+                                <a href="/events.html">Events</a>
+                                <a href="">Mentorship</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a>Groups <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdownmenu">
+                            <h1>YOUR GROUPS</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="">
+                                    <img src="/images/java-script.png" alt="">
+                                    JavaScript Developers
+                                </a>
+                                <a href="">
+                                    <img src="/images/python.png" alt="">
+                                    Pythoniasts
+                                </a>
+                                <a href="">
+                                    <img src="/images/artificial-intellegence.png" alt="">
+                                    AI enthusiasts
+                                </a>
+                            </div>
+                            <hr>
+                            <h1>DISCOVER</h1>
+                            <hr>
+                            <div class="links">
+                                <a href="/groups.html">
+                                    <img src="/images/logo.png" alt="">
+                                    Browse All
+                                </a>
+                                <a href="">
+                                    <img src="/images/interface.png" alt="">
+                                    Create New Group
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Jobs</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="navright">
+                <ul>
+                    <li><a href=""><i class="fas fa-bookmark"></i></a></li>
+                    <li><a href="">
+                        <i class="fas fa-bell"></i>
+                        <span></span>
+                    </a></li>
+                    <li>
+                        <a><i class="fas fa-plus"></i></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/newpost.html">New Post</a>
+                                <a href="">Live Session</a>
+                                <a href="">Challenge</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a><img src="/images/user.png" alt=""></a>
+                        <div class="dropdownmenu menu2">
+                            <div class="links">
+                                <a href="/profilepage.html">Your Profile</a>
+                                <a href="/settings.html">Settings</a>
+                                <a href="">Monetization</a>
+                                <a href="/landingpage.html">Sign Out</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <button class="togglebtn">
+                    <div class="btnsdiv">
+                        <div class="common span1"></div>
+                        <div class="common span2"></div>
+                        <div class="common span3"></div>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="sidebarmain">
+            <div class="searchdiv">
+                <form action="">
+                    <span><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search CodeSphere...">
+                </form>
+            </div>
+            <div class="sidebar-menu">
+                <a href="/">
+                    <span><i class="fas fa-home mr-3"></i> Home</span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-compass mr-3"></i> Explore</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Articles</a>
+                        <a href="">Tutorials</a>
+                        <a href="">Trending</a>
+                        <a href="">AI Recs</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-users"></i> Community</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="">Q&A Forum</a>
+                        <a href="">Live Collab</a>
+                        <a href="/events.html">Events</a>
+                        <a href="">Mentorship</a>
+                    </div>
+                </div>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span class="groupdiv"><img src="/images/groups.png" alt="">Groups</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <h1>YOUR GROUPS</h1>
+                        <a href="">
+                            <img src="/images/java-script.png" alt="">
+                            Javascript Developers
+                        </a>
+                        <a href="">
+                            <img src="/images/python.png" alt="">
+                            Pythoniasts
+                        </a>
+                        <a href="">
+                            <img src="/images/artificial-intellegence.png" alt="">
+                            AI enthusiasts
+                        </a>
+                        <h1>DISCOVER</h1>
+                        <a href="/groups.html">
+                            <img src="/images/logo.png" alt="">
+                            Browse All
+                        </a>
+                        <a href="">
+                            <img src="/images/interface.png" alt="">
+                            Create New
+                        </a>
+                    </div>
+                </div>
+                <a href="">
+                    <span><i class="fas fa-briefcase"></i>Jobs</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bookmark"></i>Bookmarks</span>
+                </a>
+                <a href="">
+                    <span><i class="fas fa-bell"></i>Notifications</span>
+                    <span class="notifications-span"></span>
+                </a>
+                <div class="group">
+                    <a class="droptrigger">
+                        <span><i class="fas fa-plus"></i> Create</span>
+                        <i class="fas fa-chevron-down drop"></i>
+                    </a>
+                    <div class="groupdrop">
+                        <a href="/newpost.html">New Post</a>
+                        <a href="">Live Session</a>
+                        <a href="">Challenge</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar-footer">
+            <div class="sidebar-profile">
+                <div class="prof">
+                    <img src="/images/user.png" alt="">
+                    <div class="profname">
+                        <h2>Sarah Developer</h2>
+                        <p>@sarahDev</p>
+                    </div>
+                </div>
+                    <a href="/profilepage.html">Your Profile</a>
+                    <a href="">Monetization</a>
+                    <a href="/settings.html">Settings</a>
+                    <a href="/landingpage.html">Sign Out</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body -->
+
+    <main>
+        <section class="events">
+            <div class="events-top">
+                <div class="date">
+                    <span class="dateof">12</span>
+                    <span class="month">May</span>
+                </div>
+            </div>
+            <div class="events-hero">
+                <div class="events-hero-left">
+                    <h1>Upcoming Developer Events</h1>
+                    <p>Join live coding sessions, workshops, and tech talks from industry experts</p>
+                    <div class="hero-cta-btns">
+                        <button id="hostEventBtn" class="secondary-btn"><i class="fas fa-plus"></i> Host an Event</button>
+                        <button id="browseAllBtn" class="primary-btn">Browse All Events</button>
+                    </div>
+                </div>
+                <div class="events-hero-right">
+                    <img src="/images/banner1.jpg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="events-filter">
+                <div class="type">
+                    <span>Filter by: </span>
+                    <select name="" id="type">
+                        <option value="all">All Types</option>
+                        <option value="workshop">Workshops</option>
+                        <option value="hackathon">Hackathons</option>
+                        <option value="talk">Tech Talks</option>
+                        <option value="ama">AMA Sessions</option>
+                    </select>
+                </div>
+                <div class="eventdate">
+                    <span>Date: </span>
+                    <select name="" id="date">
+                        <option value="upcoming">Upcoming</option>
+                        <option value="this-week">This Week</option>
+                        <option value="this-month">This Month</option>
+                        <option value="past">Past Events</option>
+                    </select>
+                </div>
+                <div class="technology">
+                    <span>Technology: </span>
+                    <div class="techs">
+                        <div class="tags">
+                            <span class="tag active">All</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">AI/ML</span>
+                            <span class="tag">Web Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section id="featured-events" class="featured-events">
+            <div class="featured-events-top">
+                <h2><i class="fas fa-star"></i> Featured Events</h2>
+            </div>
+            <div class="eventsgrid">
+                <div class="event-card featured">
+                    <div class="event-image">
+                        <img src="/images/banner1.jpg" alt="">
+                        <div class="event-badge">Featured</div>
+                        <div class="event-date">
+                            <span class="event-day">15</span>
+                            <span class="event-month">OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span class="event-type workshop">Workshop</span>
+                            <span class="event-duration"><i class="fas fa-clock"></i> 3 hours</span>
+                        </div>
+                        <h3>Advanced React Patterns Workshop</h3>
+                        <p class="event-description">Learn advanced React techniques including compound components, state machines, and performance optimization.</p>
+                        <div class="eventfooter">
+                            <div class="event-stats">
+                                <span class="attendees"><i class="fas fa-users"></i> 142 registered</span>
+                                <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                            </div>
+                            <button class="event-action-btn">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="/images/banner1.jpg" alt="">
+                        <div class="event-date">
+                            <span class="event-day">22</span>
+                            <span class="event-month">OCT</span>
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <span class="event-type hackathon">Hackathon</span>
+                            <span class="event-duration"><i class="fas fa-clock"></i> 48 hours</span>
+                        </div>
+                        <h3>AI Innovation Hackathon</h3>
+                        <p class="event-description">Build AI-powered solutions in teams and compete for $10,000 in prizes.</p>
+                        <div class="eventfooter">
+                            <div class="event-stats">
+                                <span class="attendees"><i class="fas fa-users"></i> 327 registered</span>
+                                <span class="level"><i class="fas fa-signal"></i> All levels</span>
+                            </div>
+                            <button class="event-action-btn">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="all-events" class="all-events">
+            <div class="featured-events-top section-header">
+                <h2><i class="fas fa-calendar-alt"></i> All Events</h2>
+                <div class="view-toggle">
+                    <button class="view-option active" data-view="list"><i class="fas fa-list"></i></button>
+                    <button class="view-option" data-view="calendar"><i class="fas fa-calendar"></i></button>
+                </div>
+            </div>
+            <div class="events-list-view">
+                <!-- event item -->
+                 <div class="event-item">
+                    <div class="event-date">
+                        <span class="date">28</span>
+                        <span class="month">OCT</span>
+                    </div>
+                    <div class="event-details">
+                        <span class="event-type talk">Tech Talk</span>
+                        <h3>WebAssembly: The Future of Web Performance</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-clock"></i> 4:00 PM - 5:30 PM UTC</span>
+                            <span><i class="fas fa-user"></i> Hosted by WebAssembly Foundation</span>
+                        </div>
+                    </div>
+                    <div class="event-actions">
+                        <span class="attendee-count"><i class="fas fa-users"></i> 89</span>
+                        <button class="event-action-btn">Details</button>
+                    </div>
+                 </div>
+                 <!-- Event Item 2 -->
+                 <div class="event-item">
+                    <div class="event-date">
+                        <span class="date">05</span>
+                        <span class="month">NOV</span>
+                    </div>
+                    <div class="event-details">
+                        <span class="event-type ama">AMA</span>
+                        <h3>Ask Me Anything: Senior Dev at Google</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-clock"></i> 1:00 PM - 2:00 PM UTC</span>
+                            <span><i class="fas fa-user"></i> Hosted by Sarah Johnson</span>
+                        </div>
+                    </div>
+                    <div class="event-actions">
+                        <span class="attendee-count"><i class="fas fa-users"></i> 215</span>
+                        <button class="event-action-btn">Details</button>
+                    </div>
+                </div>
+
+                <!-- Event Item 3 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <span class="date">12</span>
+                        <span class="month">NOV</span>
+                    </div>
+                    <div class="event-details">
+                        <span class="event-type workshop">Workshop</span>
+                        <h3>Building Microservices with Node.js</h3>
+                        <div class="event-meta">
+                            <span><i class="fas fa-clock"></i> 10:00 AM - 1:00 PM UTC</span>
+                            <span><i class="fas fa-user"></i> Hosted by Node.js Foundation</span>
+                        </div>
+                    </div>
+                    <div class="event-actions">
+                        <span class="attendee-count"><i class="fas fa-users"></i> 178</span>
+                        <button class="event-action-btn">Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="past-events">
+            <div class="featured-events-top past-top">
+                <h2><i class="fas fa-history"></i> Past Events</h2>
+            </div>
+            
+            <div class="past-events-grid">
+                <!-- Past Event 1 -->
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="/images/banner1.jpg" alt="Past Event">
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="past-event-content">
+                        <h3>React Hooks Deep Dive</h3>
+                        <div class="past-event-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> Sep 15, 2023</span>
+                            <span class="views"><i class="fas fa-eye"></i> 1.2K views</span>
+                        </div>
+                        <button class="watch-now-btn">Watch Recording</button>
+                    </div>
+                </div>
+
+                <!-- Past Event 2 -->
+                <div class="past-event-card">
+                    <div class="past-event-image">
+                        <img src="/images/banner1.jpg" alt="Past Event">
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                    <div class="past-event-content">
+                        <h3>Python Data Science Bootcamp</h3>
+                        <div class="past-event-meta">
+                            <span class="date"><i class="fas fa-calendar"></i> Aug 28, 2023</span>
+                            <span class="views"><i class="fas fa-eye"></i> 890 views</span>
+                        </div>
+                        <button class="watch-now-btn">Watch Recording</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="events-cta">
+            <div class="cta-content">
+                <h2>Have an idea for an event?</h2>
+                <p>Host your own workshop, hackathon, or tech talk on CodeSphere</p>
+                <button class="primary-btn">Become an Event Host</button>
+            </div>
+        </section>
+    </main>
+    <script src="/app.js"></script>
+</body>
+</html>
